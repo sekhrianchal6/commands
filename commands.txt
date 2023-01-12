@@ -1,0 +1,40 @@
+git
+
+
+git -- version
+
+git config --global user.name
+
+git config --global user.email
+
+git config --global edit
+
+mkdir <directory name>
+cd <directory name>
+git init
+
+git status --> shows the changes in the file that has not been saved
+git add <file name>
+git commit -m 'initial commit'
+git log
+git add .
+
+git checkout <hash code of that commit>
+git checkout master
+
+master branch --> can make  as many branches as we want
+git branch <branch name> / git branch dev
+git checkout -b <branch name> # directly checkout into new branch
+
+.gitignore
+
+
+
+
+
+
+
+git init --> initialise empty repository or folder
+ls (don't show hidden files) {every file starting with dot(.) is hidden}
+ls -a --> show all hidden files (.git file)
+ls .git --> shows inside the git folder
